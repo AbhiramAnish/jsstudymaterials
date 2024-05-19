@@ -1,0 +1,18 @@
+/* #box{
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+    color: aliceblue;
+    border: 1px solid black;
+    justify-content: center;
+} */
+
+.content{
+    background-color:yellowgreen ;
+    color: white;
+}
+
+.newclass{
+    background-color: red;
+    color: green;
+}

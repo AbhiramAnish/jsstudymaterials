@@ -1,0 +1,13 @@
+body{
+    background-color: #121481;
+    color: aliceblue;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #8485c4;
+    color: aliceblue;
+}

@@ -1,0 +1,24 @@
+h1{
+    color: blue;
+    text-decoration: line-through;
+    background-color: yellow;
+}
+
+button{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+body{
+    background-color: pink;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-top: 15px;
+    text-align: center;
+    background-color: peachpuff;
+}

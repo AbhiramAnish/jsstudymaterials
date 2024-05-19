@@ -1,0 +1,16 @@
+/* div{
+    color: white;
+    background-color: yellowgreen;
+    height: 100px;
+    width: 100px;
+} */
+
+.dark{
+    background-color: grey;
+    color: aliceblue;
+}
+
+.light{
+    background-color: aliceblue;
+    color: grey;
+}
