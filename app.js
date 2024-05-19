@@ -23,6 +23,9 @@ for (select of dropdown){
     }
 }
 
+window.addEventListener("load",()=>{
+    ExchangeCurrency();
+})
 
 flags1.addEventListener("click",()=>{
     // console.log(flags1.value);
@@ -37,8 +40,12 @@ flags2.addEventListener("click",()=>{
     image2.src=`https://flagsapi.com/${str}/shiny/64.png`;
 })
 
-btn.addEventListener("click", async (evt)=>{
+btn.addEventListener("click",(evt)=>{
     evt.preventDefault(); // to prevent the default behaviour of the the form that is the refreshing of the page when submitted
+    ExchangeCurrency();
+})
+
+async function ExchangeCurrency(){
     let amount = document.querySelector("input");
     console.log(amount.value);
     if(amount.value =="" || amount.value<1){
@@ -53,5 +60,5 @@ btn.addEventListener("click", async (evt)=>{
     console.log(rate);
     let result = amount.value*rate;
     resultMsg.innerText=`${amount.value} ${flags1.value} = ${result} ${flags2.value}`;
-})
+}
 
